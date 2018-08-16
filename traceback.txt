@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/sala.rpy", line 44, in script
+    jump chegada
+ScriptError: could not find label 'chegada'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/sala.rpy", line 44, in script
+    jump chegada
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/ast.py", line 1600, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/script.py", line 873, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'chegada'.
+
+Linux-4.15.0-29-generic-x86_64-with-debian-buster-sid
+Ren'Py 7.0.0.196
+vngamux 1.0
+Wed Aug  1 21:44:25 2018
