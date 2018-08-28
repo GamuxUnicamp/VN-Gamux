@@ -1,9 +1,9 @@
-define ana = Character('Ana',color='#000000')
-define gabriel = Character('Gabriel',color='#8B0000')
+define ana = Character('Ana', color='#000000')
+define gabriel = Character('Gabriel', color='#8B0000')
 define akari = Character('Akari')
 define peronio = Character('Perônio')
 define stehfano = Character('Stehfano')
-define alec = Character('Alec',color='#90EE90')
+define alec = Character('Alec', color='#90EE90')
 define thiago = Character('Thiago')
 define finger = Character('Finger')
 define artur = Character('Artuts')
@@ -63,7 +63,7 @@ label conversa:
     p 'Hum...'
 menu:
     'Jogar LoL o dia todo':
-        p 'Achava que Gamux era uma entidade na qual você ia pra ficar jogando Lol o dia todo.'
+        p 'Achava que Gamux era uma entidade na qual você ia pra ficar jogando LoL o dia todo.'
     'Fazer joguinhos':
         p 'Achava que no Gamux você só ia pra fazer joguinhos.'
     'Casa de swing':
