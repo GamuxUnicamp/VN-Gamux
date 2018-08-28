@@ -2,9 +2,12 @@
 errors listed below, and try again.
 
 
-File "game/scripts/script.rpy", line 103: end of line expected.
-    akari 'Poxa vida, tudo bem então']
-                                     ^
+File "game/scripts/chegada.rpy", line 40: expected menuitem
+    hide alec
+    ^
 
-Ren'Py Version: Ren'Py 7.0.0.196
-Wed Aug  1 20:40:45 2018
+File "game/scripts/chegada.rpy", line 50: expected menuitem
+    hide finger
+    ^
+
+Ren'Py Version: Ren'Py 6.99.14.3135
