@@ -17,7 +17,10 @@ label lugar:
     show akari feliz
     akari 'Eu te vejo lá então, até mais! [p]'
     p 'Tchau Akari, até lá!'
+    show akari feliz at right
+    with move
     hide akari feliz
+    with None
 label sala:
     'Eu me despeço da Akari e vou até a sala da matéria que mais está me preocupando. Preciso ver o resultado dessa prova...'
     'Eu não devo ter ido mal, eu estudei bastante, acho que meu resultado deve ter sido satisfatório...'

@@ -6,7 +6,6 @@ label chegada:
     ana 'Oi, tudo bem? É um prazer te conhecer, eu sou a Ana. Sou da Ciência da Computação.'
     show anaclara olhos_fechados
     ana 'Comecei a participar do Gamux no meio de 2017. Sempre gostei muito de arte, de desenhar...'
-    hide anaclara olhos_fechados
     show anaclara feliz
     ana 'Então eu faço alguns materiais de divulgação do Gamux. Sou a Coordenadora de Comunicação.'
     p 'É um prazer te conhecer, Ana! Que legal!'
@@ -45,7 +44,7 @@ finger 'Prazer, meu nome é Henrique, mas todos me chamam de Finger. Na última 
 
 menu:
     'Meu Deus! O que houve?':
-        finger '(contar o que aconteceu)'
+        finger '(contar o que aconteceu)' #lembrar o Finger de contar o que houve
     '...':
         finger 'Haha, calma, estou exagerando. Não precisa se assustar.'
 
