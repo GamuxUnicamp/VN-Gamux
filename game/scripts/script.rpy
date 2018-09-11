@@ -10,6 +10,7 @@ define artuts = Character('Artuts')
 define carlos = Character('Carlos')
 define gustavo = Character('Gustavo')
 define rapha = Character('Rapha')
+define chris = Character('Chris')
 define professor = Character('Professor maléfico')
 define p = Character('[name]') #Personagens
 default role = False #Variáveis

@@ -58,3 +58,5 @@ hide carlos
 show gustavo
 gustavo 'Olá, eu sou o Gustavo. Aproveite a Jam!'
 hide gustavo
+
+jump aventura
