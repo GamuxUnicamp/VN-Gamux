@@ -2,12 +2,20 @@
 errors listed below, and try again.
 
 
-File "game/scripts/chegada.rpy", line 40: expected menuitem
-    hide alec
-    ^
+File "game/scripts/aventura.rpy", line 131: menu statement expects a non-empty block.
+    menu:
+        ^
 
-File "game/scripts/chegada.rpy", line 50: expected menuitem
-    hide finger
-    ^
+File "game/scripts/aventura.rpy", line 132: expected statement.
+    'Claro!':
+            ^
+
+File "game/scripts/aventura.rpy", line 134: expected statement.
+    'Hm... Não sei.':
+                    ^
+
+File "game/scripts/aventura.rpy", line 138: expected statement.
+    'Não.':
+          ^
 
 Ren'Py Version: Ren'Py 6.99.14.3135

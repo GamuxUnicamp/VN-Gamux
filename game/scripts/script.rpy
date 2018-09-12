@@ -16,7 +16,9 @@ define p = Character('[name]') #Personagens
 default role = False #Variáveis
 default estudar = False
 default desistir = False
-
+default equipe = False
+default dormiu = False
+default happyending = True
 
 
 label start:

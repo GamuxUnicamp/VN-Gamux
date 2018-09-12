@@ -1,22 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/sala.rpy", line 44, in script
-    jump chegada
-ScriptError: could not find label 'chegada'.
+  File "game/scripts/aventura.rpy", line 91, in script
+    n 'Você continua, mas sente suas pálpebras pesando...'
+Exception: Sayer 'n' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/sala.rpy", line 44, in script
-    jump chegada
-  File "/home/gabriel/Documentos/Jogos/renpy/renpy/ast.py", line 1600, in execute
-    rv = renpy.game.script.lookup(target)
-  File "/home/gabriel/Documentos/Jogos/renpy/renpy/script.py", line 873, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'chegada'.
+  File "game/scripts/aventura.rpy", line 91, in script
+    n 'Você continua, mas sente suas pálpebras pesando...'
+  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 615, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 528, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'n' is not defined.
 
-Linux-4.15.0-29-generic-x86_64-with-debian-buster-sid
-Ren'Py 7.0.0.196
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3135
 vngamux 1.0
-Wed Aug  1 21:44:25 2018
