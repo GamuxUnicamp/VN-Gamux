@@ -392,6 +392,9 @@ define gui.nvl_thought_xpos = 360
 define gui.nvl_thought_ypos = 0
 define gui.nvl_thought_width = 1170
 define gui.nvl_thought_xalign = 0.0
+style italic_text:
+    italic True
+ 
 
 ## The position of nvl menu_buttons.
 define gui.nvl_button_xpos = 675
@@ -468,6 +471,3 @@ init python:
 
         gui.nvl_button_width = 1860
         gui.nvl_button_xpos = 30
-
-
-

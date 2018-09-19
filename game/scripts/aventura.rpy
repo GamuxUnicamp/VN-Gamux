@@ -1,4 +1,5 @@
 label aventura:
+    scene bg sala ic3_5
     p 'Eu estou numa game jam, mas eu não sei nem como começar a fazer um jogo! O que eu faço?'
     show chris feliz
     chris 'Não se preocupe! Não precisa ter experiência desenvolvendo para participar do evento.'
