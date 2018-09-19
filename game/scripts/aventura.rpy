@@ -20,21 +20,68 @@ menu:
         chris 'Vamos procurar uma equipe para você então.'
         $ equipe = True
 
-chris 'Então, o que pensa em usar para a programação do jogo?'
+chris 'Então, o que pensa em fazer no desenvolvimento do jogo?'
 p 'Não sei...'
-chris 'Bem, acho que a Godot Engine seria uma boa opção.'
-chris 'Vários membros do Gamux têm experiência com ela, então saberão te ajudar!'
-p 'Que legal!'
-chris 'Há tutoriais de Godot na nossa wiki. Dê uma olhada, pode ser um bom ponto de partida!'
-chris 'Para desenhar personagens e cenários, você pode experimentar usar o Krita.'
-chris 'Há material na wiki do Gamux sobre ele para consulta também!'
+p 'O que posso fazer?'
+chris 'Bem, fazer um jogo não é apenas programar, você pode trabalhar com modelagem 3D, arte digital, produção musical, roteiro e programação, dentre outras coisas'
+chris 'Quer fazer alguma dessas?'
+menu:
+    'Modelagem 3D':
+        p 'Eu quero modelagem 3D'
+        Chris 'Muito bom, então o Blender é uma boa ferramenta pra você experimentar'
+    'Arte digital':
+        p 'Quero arte digital'
+        chris 'Bem interessante, você pode trabalhar com Krita ou GIMP, são boas ferramentas'
+        chris 'Há material na wiki do Gamux sobre o Krita para consulta.'
+    'produção musical':
+        p 'Eu gostaria muito de ficar com a produção musical'
+        chris 'Isso é muito legal, há várias coisas que você pode fazer, uma ferramenta legal é o audacity'
+    'roteiro':
+        p 'Eu quero a parte de roteiro'
+        chris 'Boa, você pode trabalhar para fazer isso em qualquer jogo, mas jogos com mais enfoque em roteiro, como os feitos em Renpy e Twine são interessantes pra você'
+    'Programação':
+        p 'Eu acho que vou codar mesmo'
+        chris 'Da hora, uma boa ferramenta, a que temos usado no Gamux, é o Godot engine'
+        chris 'Vários membros do Gamux têm experiência com ela, então saberão te ajudar!'
+        p 'Que legal!'
+        chris 'Há tutoriais de Godot na nossa wiki. Dê uma olhada, pode ser um bom ponto de partida!'
+chris 'Indepente do que for fazer, a Wiki do Gamux tem tutoriais sobre algumas ferramentas, se você precisar'
 chris 'Boa sorte!'
 chris 'Ah, não se esqueça! A ideia da Livre Game Jam é utilizar apenas ferramentas livres no desenvolvimento.'
-
+p 'Ah sim, mas o que é software livre?'
+show chris feliz at left
+with move
+show peronio at right
+with None
+peronio 'Olá, ouvi a conversa de vocês, eu posso te dizer o que é software livre'
 hide chris
+with None
+show peronio at center
+with move
+peronio 'Segundo a Free Software Foundation e o site do GNU, softaware livre é todo aquele que possua as quatro liberdades fundamentais:'
+peronio 'A liberdade de executar o programa como você desejar, para qualquer propósito;'
+peronio 'A liberdade de estudar como o programa funciona, e adaptá-lo às suas necessidades. Para tanto, acesso ao código-fonte é um pré-requisito;'
+peronio 'A liberdade de redistribuir cópias de modo que você possa ajudar outros;'
+peronio 'E'
+peronio 'A liberdade de distribuir cópias de suas versões modificadas a outros. Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.'
+peronio 'Ou seja, com o softaware livre, você não está preso à vontade das grandes desenvolvedoras de software, você pode saber o que está acontecendo com seu softaware e alterá-lo segundo suas necessidades e vontades, sem depender de outros.'
+p 'Que interessante, eu gostei dessa ideia'
+peronio 'Ah sim, é realmente muito incrível'
+peronio 'Mais alguma dúvida'
+p 'bem...'
+menu:
+    'FPS procedural':
+        p 'Eu consigo criar um FPS como COD ou BF, mas gerado proceduralmente numa Jam?'
+    'Skirim melhor':
+        p 'Eu consigo criar um RPG como Skyrim, mas melhor, durante a Jam?'
+peronio 'Vai nessa'
+peronio 'Nada te impede de tentar, mas assim, fazer isso numa equipe de quatro a cinco pessoas, em 48 horas, é praticamente impossível.'
+peronio 'Mas se quiser, vou achar incrível, vou querer muito jogar seu jogo depois.'
+hide peronio
+'Algum tempo depois...'
 show rapha feliz
 
-'Algum tempo depois...'
+
 
 rapha 'Olá, como está indo seu jogo?!'
 rapha 'Ah, acho que ainda não nos conhecemos! Eu sou a Rapha, estudo no IA.'
@@ -43,9 +90,12 @@ rapha 'Você já deu uma olhada na LariJam?'
 p 'O que é a LariJam?'
 rapha 'É uma venda de guloseimas especialmente para a jam.'
 rapha 'Tem várias coisas, por exemplo toddyinho, cup noodles, chocolates... Dê uma olhada!'
-hide rapha
+show rapha feliz at left
+with move
+hide rapha feliz
+with None
 
-'Você se dirige ao balcão da LariJam...'
+'Eu vou ao balcão da LariJam...'
 
 show thiago feliz
 thiago 'Olá, tudo bem? Você quer comprar alguma coisa?'
@@ -113,8 +163,8 @@ label sleepending:
         'Está tudo escurecendo...'
         'Você sucumbe ao sono, seu corpo cai sobre a mesa.'
         'Sua cabeça inevitavelmente bate no teclado...'
-        'E pressiona a tecla Backspace, que começa a apagar o código...'
-        'E todo o seu código se perde. Todo o seu trabalho.'
+        'E pressiona a tecla Backspace, que começa a apagar o código e tudo que você tinha feito...'
+        'E todo o seu jogo se perde. Todo o seu trabalho.'
         'FIM DE JOGO'
 
 if happyending == True:
