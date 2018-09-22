@@ -151,14 +151,3 @@ menu escolha_final:
             akari 'Tudo bem. Se quiser vir em alguma outra coisa do Gamux, estaremos sempre abertos pra você.'
             show akari feliz
         jump sadending
-label sadending:
-    if not desistir:
-        hide akari feliz
-        'Eu recusei o convite da Akari e não fui à Livre Jam.'
-    else:
-        'Acabei desistindo e não fui à Jam.'
-        show akari olhos_fechados
-        akari 'Sem Toddynho pra você.'
-        hide akari
-    'Este foi o final de semana mais entediante da minha vida, eu deveria ter ido à Jam!'
-    'FIM DE JOGO'

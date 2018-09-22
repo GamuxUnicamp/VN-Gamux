@@ -75,15 +75,16 @@ menu:
     'Hum.......... Não, valeu.':
         alec 'Ok!'
 
-show alec at right
-with move
-hide alec
-with None
-show finger at right
-with None
-show finger at center
-with move
-finger 'Prazer, meu nome é Henrique, mas todos me chamam de Finger. Na última jam eu quase morri, mas foi muito louco.'
+label finger:
+    show alec at right
+    with move
+    hide alec
+    with None
+    show finger at right
+    with None
+    show finger at center
+    with move
+    finger 'Prazer, meu nome é Henrique, mas todos me chamam de Finger. Na última jam eu quase morri, mas foi muito louco.'
 
 menu:
     'Meu Deus! O que houve?':
@@ -99,36 +100,37 @@ menu:
         show finger olhos_fechados
         finger 'Haha, calma, é brincadeira. Não precisa se assustar.'
 
-show finger at left
-with move
-hide finger
-with None
-show artuts at left
-with None
-show artuts at center
-with move
-artuts 'Oi, eu sou o Arthur, mas todos me chamam de Artuts ou de Tuts. É um prazer te conhecer!'
-show artuts at right
-with move
-hide artuts
-with None
-show carlos at right
-with None
-show carlos at center
-with move
-carlos 'Eu sou o Carlos. Eu fiz o site do Gamux junto com o Alec. É um prazer te conhecer!'
-show carlos at left
-with move
-hide carlos
-with None
-show gustavo at left
-with None
-show gustavo at center
-with move
-gustavo 'Olá, eu sou o Gustavo. Aproveite a Jam!'
-show gustavo at right
-with move
-hide gustavo
-with None
+label apresentacao:
+    show finger at left
+    with move
+    hide finger
+    with None
+    show artuts at left
+    with None
+    show artuts at center
+    with move
+    artuts 'Oi, eu sou o Arthur, mas todos me chamam de Artuts ou de Tuts. É um prazer te conhecer!'
+    show artuts at right
+    with move
+    hide artuts
+    with None
+    show carlos at right
+    with None
+    show carlos at center
+    with move
+    carlos 'Eu sou o Carlos. Eu fiz o site do Gamux junto com o Alec. É um prazer te conhecer!'
+    show carlos at left
+    with move
+    hide carlos
+    with None
+    show gustavo at left
+    with None
+    show gustavo at center
+    with move
+    gustavo 'Olá, eu sou o Gustavo. Aproveite a Jam!'
+    show gustavo at right
+    with move
+    hide gustavo
+    with None
 
-jump aventura
+    jump aventura
