@@ -58,12 +58,12 @@ menu:
         show akari olhos_fechados
         '{i}Mas que porcaria de resposta...{/i}'
         show akari feliz
-        jump conversa
+        jump conversa #Conversa sobre o final de semana
 label conversa:
     if role:
         show akari olhos_fechados
         akari 'Olha só quanto ânimo! Eu vou participar de um evento do Gamux, a entidade da qual faço parte. Chama Livre Jam, quer vir?'
-        show akari feliz
+        show akari feliz #Akari pisca
     elif estudar:
         show akari olhos_fechados
         akari 'Ah, entendo. Realmente não está fácil pra ninguém...'

@@ -1,19 +1,19 @@
-Sat Sep 22 17:19:31 2018
+Sat Sep 22 17:43:06 2018
 Linux-4.15.0-34-generic-x86_64-with-debian-buster-sid
 Ren'Py 7.1.0.882
  
 
 Bootstrap to the start of init.init took 0.10s
 Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.04s
-Loading script took 0.44s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.01s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.07s
-Analyze and compile ATL took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to '/home/gabriel/.renpy/backups/VN-Gamux':
 Dump and make backups. took 0.10s
@@ -21,19 +21,19 @@ Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.04s
+Creating interface object took 0.05s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.09s
-Prepare screens took 0.10s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.07s
+Save bytecode. took 0.08s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.04s
 
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
@@ -288,7 +288,7 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.60884284973s
+Total time until interface ready: 1.57125401497s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
 
@@ -296,8 +296,8 @@ primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1009) drawable=(1920, 1009)
-- Frame drawn at 0.046390 seconds.
-- Frame drawn at 0.054239 seconds.
-- Frame drawn at 0.066386 seconds.
-- Frame drawn at 0.085562 seconds.
-- 0.085562 seconds to render 5 frames.
+- Frame drawn at 0.036630 seconds.
+- Frame drawn at 0.044162 seconds.
+- Frame drawn at 0.053864 seconds.
+- Frame drawn at 0.062672 seconds.
+- 0.062672 seconds to render 5 frames.

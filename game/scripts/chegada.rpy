@@ -1,5 +1,5 @@
 label chegada:
-    scene bg bosque_ic
+    scene bg bosque_ic with dissolve
     '{i}Cheguei ao IC. Acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer...{/i}'
     show akari feliz at left
     with None
