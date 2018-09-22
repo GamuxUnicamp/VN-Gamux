@@ -1,6 +1,6 @@
 label chegada:
     scene bg bosque_ic
-    'Cheguei ao IC. Acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer...'
+    '{i}Cheguei ao IC. Acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer...{/i}'
     show akari feliz at left
     with None
     show akari feliz at center

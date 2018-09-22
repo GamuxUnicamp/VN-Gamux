@@ -63,11 +63,11 @@ label software_livre:
     show peronio at center
     with move
     peronio 'Segundo a Free Software Foundation e o site do GNU, softaware livre é todo aquele que possua as quatro liberdades fundamentais:'
-    peronio 'A liberdade de executar o programa como você desejar, para qualquer propósito;'
+    peronio '\"A liberdade de executar o programa como você desejar, para qualquer propósito;'
     peronio 'A liberdade de estudar como o programa funciona, e adaptá-lo às suas necessidades. Para tanto, acesso ao código-fonte é um pré-requisito;'
     peronio 'A liberdade de redistribuir cópias de modo que você possa ajudar outros;'
     peronio 'E'
-    peronio 'A liberdade de distribuir cópias de suas versões modificadas a outros. Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.'
+    peronio 'A liberdade de distribuir cópias de suas versões modificadas a outros. Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.\"'
     peronio 'Ou seja, com o softaware livre, você não está preso à vontade das grandes desenvolvedoras de software, você pode saber o que está acontecendo com seu softaware e alterá-lo segundo suas necessidades e vontades, sem depender de outros.'
     p 'Que interessante, eu gostei dessa ideia.'
     peronio 'Ah, sim, é realmente muito incrível.'
@@ -98,7 +98,7 @@ label larijam:
     hide rapha feliz
     with None
 
-    'Eu vou ao balcão da LariJam...'
+    '{i}Eu vou ao balcão da LariJam...{/i}'
 
     show thiago feliz
     thiago 'Olá, tudo bem? Você quer comprar alguma coisa?'
@@ -117,7 +117,7 @@ menu:
 
 hide thiago
 
-'Algum tempo depois...'
+'{i}Algum tempo depois...{/i}'
 
 p 'Nossa... Estou caindo de sono.'
 
@@ -134,7 +134,7 @@ menu:
         hide rapha
 
 if dormiu == False:
-    'Algum tempo depois...'
+    '{i}Algum tempo depois...{/i}'
 
     p 'ZZZ...ZZZ...'
     p 'AH! Meu jogo!'
@@ -144,10 +144,10 @@ if dormiu == False:
             $ dormiu = True
             jump happyending
         'Não! Quero continuar!':
-            'Você continua, mas sente suas pálpebras pesando...'
+            '{i}Você continua, mas sente suas pálpebras pesando...{/i}'
 
 if dormiu == False:
-    'Algum tempo depois...'
+    '{i}Algum tempo depois...{/i}'
 
     p 'Não aguento mais... Preciso dormir!'
     menu:
@@ -155,7 +155,7 @@ if dormiu == False:
             $ dormiu = True
             jump happyending
         'Acho que aguento mais um pouco...':
-            'Você continua... Que determinação!'
+            '{i}Você continua... Que determinação{/i}!'
             jump sleepending
 
 #if equipe:

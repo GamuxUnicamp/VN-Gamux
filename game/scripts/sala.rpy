@@ -36,14 +36,14 @@ label lugar:
     hide akari feliz
     with None
 label sala:
-    'Eu me despeço da Akari e vou até a sala da matéria que mais está me preocupando. Preciso ver o resultado dessa prova...'
+    '{i}Eu me despeço da Akari e vou até a sala da matéria que mais está me preocupando. Preciso ver o resultado dessa prova...{/i}'
     scene bg sala_prof
-    'Eu não devo ter ido mal, eu estudei bastante, acho que meu resultado deve ter sido satisfatório...'
-    'Cheguei à sala. O professor está na mesa e prova está ali virada. Só tem uma... Deve ser a minha. Vai ser agora, eu pego a prova...'
-    'O QUÊ?! NÂO PODE SER!'
-    'EU NÃO POSSO TER TIRADO ZERO!!!!!!!!'
-    'Mas pera, isso está errado...'
-    'Eu fui bem nesse prova, não é possível!'
+    '{i}Eu não devo ter ido mal, eu estudei bastante, acho que meu resultado deve ter sido satisfatório...{/i}'
+    '{i}Cheguei à sala. O professor está na mesa e prova está ali virada. Só tem uma... Deve ser a minha. Vai ser agora, eu pego a prova...{/i}'
+    '{i}O QUÊ?! NÂO PODE SER!{i}'
+    '{i}EU NÃO POSSO TER TIRADO ZERO!!!!!!!!{/i}'
+    '{i}Mas pera, isso está errado...{/i}'
+    '{i}Eu fui bem nesse prova, não é possível!{/i}'
     p 'Professor, com licença...'
     'Professor' 'Olá, jovem, no que posso te ajudar?'
     'Eu acho que tem algum erro na correção da minha prova... Olha aqui, essas respostas estão certas, era pra eu ter tirado, pelo menos, 9,0 nessa prova. Houve algum engano...'
@@ -51,30 +51,30 @@ label sala:
     professor 'Era pra você ter tirado dez nessa prova, mas eu te dei zero. Não me leve a mal, não é nada pessoal. Sei que você é uma pessoa muito esforçada, mas eu vou me sentir mal se não deixar uma certa quantidade de alunos de exame.'
     professor 'E nesse semestre pessoas demais estão bem. Você, por exemplo, é excelente: está indo muito bem. Eu precisava deixar algumas pessoas de exame, isso não podia ficar assim.'
     professor 'Eu escolhi você porque vocẽ está indo tão bem que um examezinho não vai te fazer mal, espero que você me entenda.'
-    'Eu saio correndo da sala aos prantos. Não consigo nem mais olhar na cara desse professor maldito...'
-    'O que fazer agora? Eu estou ferrado, esse maldito vai me pôr de exame, vou ter que estudar muito agora...'
-    'Deixa eu pensar...'
-    'Essa foi a segunda prova, eu tirei dez na primeira prova. Se eu tirar dez na terceira, eu passo sem exame. Ainda há esperança!'
-    'É melhor eu avisar sobre esse desgraçado na DAC e estudar muito. Preciso tirar 10, mas...'
-    'Droga, eu prometi à Akari que iria ao evento dela, o que eu vou fazer?!'
+    '{i}Eu saio correndo da sala aos prantos. Não consigo nem mais olhar na cara desse professor maldito...{/i}'
+    '{i}O que fazer agora? Eu estou ferrado, esse maldito vai me pôr de exame, vou ter que estudar muito agora...{/i}'
+    '{i}Deixa eu pensar...{/i}'
+    '{i}Essa foi a segunda prova, eu tirei dez na primeira prova. Se eu tirar dez na terceira, eu passo sem exame. Ainda há esperança!{/i}'
+    '{i}É melhor eu avisar sobre esse desgraçado na DAC e estudar muito. Preciso tirar 10, mas...{/i}'
+    '{i}Droga, eu prometi à Akari que iria ao evento dela, o que eu vou fazer?!{/i}'
 menu:
     'Ir à Jam':
-        'Não, eu não posso furar, agora já prometi que iria, não vou faltar. Vai ser bom ir até lá, vou me distrair um pouco.'
+        '{i}Não, eu não posso furar, agora já prometi que iria, não vou faltar. Vai ser bom ir até lá, vou me distrair um pouco.{/i}'
         jump chegada
     'Desistir':
         if estudar:
-            'Eu já planejava estudar, agora não vai ter jeito. Depois ligo pra Akari, mas vou ter que deixar pra próxima.'
+            '{i}Eu já planejava estudar, agora não vai ter jeito. Depois ligo pra Akari, mas vou ter que deixar pra próxima.{/i}'
             $ desistir = True
             jump sadending
         else:
-            'É, parece que está difícil, melhor eu deixar esse evento da Akari pra lá...'
-            'Mas será que essa é a melhor opção mesmo? Ir pode ser uma boa...'
+            '{i}É, parece que está difícil, melhor eu deixar esse evento da Akari pra lá...{/i}'
+            '{i}Mas será que essa é a melhor opção mesmo? Ir pode ser uma boa...{/i}'
             jump desistir
 menu desistir:
     'Não desistir':
-        'Ah cara, vai ser divertido lá, e a Akari vai ficar chateada se eu não for, melhor eu ir... Eu vou!'
+        '{i}Ah cara, vai ser divertido lá, e a Akari vai ficar chateada se eu não for, melhor eu ir... Eu vou!{/i}'
         jump chegada
     'Desistir':
-        'Melhor não, preciso estudar, estou quase indo pra exame... Desculpa Akari, mas não vai rolar.'
+        '{i}Melhor não, preciso estudar, estou quase indo pra exame... Desculpa Akari, mas não vai rolar.{/i}'
         $ desistir = True
         jump sadending
