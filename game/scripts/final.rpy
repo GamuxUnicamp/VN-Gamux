@@ -1,36 +1,36 @@
 label sadending:
     if not desistir:
         hide akari feliz
-        'Eu recusei o convite da Akari e não fui à Livre Jam.'
+        '{i}Eu recusei o convite da Akari e não fui à Livre Jam.{/i}'
     else:
-        'Acabei desistindo e não fui à Jam.'
+        '{i}Acabei desistindo e não fui à Jam.{/i}'
         show akari olhos_fechados
         akari 'Sem Toddynho pra você.'
         hide akari
-    'Este foi o final de semana mais entediante da minha vida, eu deveria ter ido à Jam!'
+    '{i}Este foi o final de semana mais entediante da minha vida, eu deveria ter ido à Jam!{/i}'
     'FIM DE JOGO'
     return
 
 label sleepending:
     if dormiu == False:
         $ happyending = False
-        'Um tempo depois...'
-        'O que está acontecendo?'
-        'Está tudo escurecendo...'
-        'Você sucumbe ao sono, seu corpo cai sobre a mesa.'
-        'Sua cabeça inevitavelmente bate no teclado...'
-        'E pressiona a tecla Backspace, que começa a apagar o código e tudo que você tinha feito...'
-        'E todo o seu jogo se perde. Todo o seu trabalho.'
+        '{i}Um tempo depois...{/i}'
+        '{i}O que está acontecendo?{/i}'
+        '{i}Está tudo escurecendo...{/i}'
+        '{i}Você sucumbe ao sono, seu corpo cai sobre a mesa.{/i}'
+        '{i}Sua cabeça inevitavelmente bate no teclado...{/i}'
+        '{i}E pressiona a tecla Backspace, que começa a apagar o código e tudo que você tinha feito...{/i}'
+        '{i}E todo o seu jogo se perde. Todo o seu trabalho.{/i}'
         'FIM DE JOGO'
         return
 
 label happyending:
     if happyending == True:
-        'Que bom que descansei um pouco, isso certamente vai melhorar meu rendimento!'
+        '{i}Que bom que descansei um pouco, isso certamente vai melhorar meu rendimento!{/i}'
 
-        'O tempo passa... Você desenvolve um jogo e se diverte muito na jam.'
+        '{i}O tempo passa... Você desenvolve um jogo e se diverte muito na jam.{/i}'
 
-        'E, finalmente, o tempo acaba. Você tem um jogo simples, mas que fez com muito carinho.'
+        '{i}E, finalmente, o tempo acaba. Você tem um jogo simples, mas que fez com muito carinho.{/i}'
 
         show akari feliz
         akari 'Está na hora do encerramento e da apresentação dos jogos!'
@@ -49,7 +49,7 @@ label happyending:
 
         hide akari
 
-        'Nós do Gamux te agradecemos por ter jogado nossa Visual Novel de divulgação da Livre Game Jam!'
-        'Esperamos que tenha conhecido melhor a entidade e se divertido.'
-        'Venha para a Livre Game Jam! Está chegando! *-*'
+        '{i}Nós do Gamux te agradecemos por ter jogado nossa Visual Novel de divulgação da Livre Game Jam!{/i}'
+        '{i}Esperamos que tenha conhecido melhor a entidade e se divertido.{/i}'
+        '{i}Venha para a Livre Game Jam! Está chegando! *-*{/i}'
         return

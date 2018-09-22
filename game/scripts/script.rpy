@@ -26,12 +26,12 @@ label start:
     python:
         name = renpy.input('Digite seu nome:')
         name = name.strip() or 'Protagonista' #Recebendo nome do jogador
-    'É... Acabei de sair da aula aqui no CB, não está fácil.' #Primeira cena, jogador sai da aula e encontra com a Akari, que a/o convida para a Livre Jam
-    'Acabei de entregar um trabalho, já tenho mais cinco pra fazer, tenho prova semana que vem... Esse semestre está puxado.'
-    'Depois de um tempo viajando, percebo que alguém vem em minha direção.'
+    '{i}É... Acabei de sair da aula aqui no CB, não está fácil.{/i}' #Primeira cena, jogador sai da aula e encontra com a Akari, que a/o convida para a Livre Jam
+    '{i}Acabei de entregar um trabalho, já tenho mais cinco pra fazer, tenho prova semana que vem... Esse semestre está puxado.{/i}'
+    '{i}Depois de um tempo viajando, percebo que alguém vem em minha direção.{/i}'
     '???' 'Oi, [p]! Como vai? Tem planos pro final de semana?'
     show akari feliz
-    'Ah, essa é minha amiga Akari, da Ciência da Computação.'
+    '{i}Ah, essa é minha amiga Akari, da Ciência da Computação.{/i}'
     show akari olhos_fechados
 menu:
     'Dormir':
@@ -56,14 +56,14 @@ menu:
         show akari feliz
         p 'Oi, Akari, estou bem. Hum... Acho que vou só brisar no final de semana, haha, e você?'
         show akari olhos_fechados
-        'Mas que porcaria de resposta...'
+        '{i}Mas que porcaria de resposta...{/i}'
         show akari feliz
-        jump conversa
+        jump conversa #Conversa sobre o final de semana
 label conversa:
     if role:
         show akari olhos_fechados
         akari 'Olha só quanto ânimo! Eu vou participar de um evento do Gamux, a entidade da qual faço parte. Chama Livre Jam, quer vir?'
-        show akari feliz
+        show akari feliz #Akari pisca
     elif estudar:
         show akari olhos_fechados
         akari 'Ah, entendo. Realmente não está fácil pra ninguém...'
@@ -71,13 +71,13 @@ label conversa:
         akari 'Eu vou pra Livre Jam, um evento organizado pelo Gamux junto com a LivreCamp. Se mudar de ideia e quiser vir também, vai ser lá no IC, só aparecer.'
         show akari olhos_fechados
     else:
-        'A Akari não se deixou convencer com meus planos, certeza...'
+        '{i}A Akari não se deixou convencer com meus planos, certeza...{/i}'
         show akari olhos_fechados
         akari 'Certo então. Eu vou pra Livre Jam no IC, evento da entidade da qual eu faço parte, o Gamux.'
         show akari feliz
         akari 'Por que, em vez de ficar embromando o final de semana inteiro, você não vem também?'
         show akari olhos_fechados
-    'Verdade! Eu lembro que ela me contou que fazia parte de uma entidade, só não lembro exatamente o que é...'
+    '{i}Verdade! Eu lembro que ela me contou que fazia parte de uma entidade, só não lembro exatamente o que é...{/i}'
     show akari feliz
     p 'Parece interessante, mas do que se trata mesmo esse evento e sua entidade em si?'
     show akari olhos_fechados

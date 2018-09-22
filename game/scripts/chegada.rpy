@@ -1,6 +1,6 @@
 label chegada:
-    scene bg bosque_ic
-    'Cheguei ao IC. Acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer...'
+    scene bg bosque_ic with dissolve
+    '{i}Cheguei ao IC. Acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer...{/i}'
     show akari feliz at left
     with None
     show akari feliz at center
@@ -9,6 +9,7 @@ label chegada:
     show akari feliz at left
     with move
     hide akari feliz
+    pause
     with None
     show anaclara feliz at right
     with None
@@ -22,6 +23,7 @@ label chegada:
     with move
     hide anaclara feliz
     with None
+    pause
     show peronio at right
     with None
     show peronio at center
@@ -39,6 +41,7 @@ label chegada:
     with move
     hide peronio
     with None
+    pause
     show stefano at left
     with None
     show stefano at center
@@ -50,6 +53,7 @@ label chegada:
     with move
     hide stefano
     with None
+    pause
     show gabriel at right
     with None
     show gabriel at center
@@ -60,6 +64,7 @@ label chegada:
     show gabriel at left
     with move
     hide gabriel
+    pause
     with None
     show alec at left
     with None
@@ -79,6 +84,7 @@ label finger:
     show alec at right
     with move
     hide alec
+    pause
     with None
     show finger at right
     with None
@@ -105,6 +111,7 @@ label apresentacao:
     with move
     hide finger
     with None
+    pause
     show artuts at left
     with None
     show artuts at center
@@ -113,6 +120,7 @@ label apresentacao:
     show artuts at right
     with move
     hide artuts
+    pause
     with None
     show carlos at right
     with None
@@ -122,6 +130,7 @@ label apresentacao:
     show carlos at left
     with move
     hide carlos
+    pause
     with None
     show gustavo at left
     with None
@@ -132,5 +141,6 @@ label apresentacao:
     with move
     hide gustavo
     with None
+    pause
 
     jump aventura
