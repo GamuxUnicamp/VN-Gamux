@@ -1,20 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/aventura.rpy", line 91, in script
-    n 'Você continua, mas sente suas pálpebras pesando...'
-Exception: Sayer 'n' is not defined.
+  File "game/scripts/chegada.rpy", line 93, in script
+    finger 'Eu consumi [percent:300] do valor recomendado de sódio para um dia.'
+KeyError: u'percent'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/aventura.rpy", line 91, in script
-    n 'Você continua, mas sente suas pálpebras pesando...'
-  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 615, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 528, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'n' is not defined.
+  File "game/scripts/chegada.rpy", line 93, in script
+    finger 'Eu consumi [percent:300] do valor recomendado de sódio para um dia.'
+  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 643, in execute
+    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
+  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\exports.py", line 1175, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\character.py", line 1000, in __call__
+    what = what_pattern.replace("[what]", sub(what, translate=translate))
+  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\character.py", line 982, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\substitutions.py", line 242, in substitute
+    s = formatter.vformat(s, (), kwargs)
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 563, in vformat
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 585, in _vformat
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 646, in get_field
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 605, in get_value
+KeyError: u'percent'
 
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135

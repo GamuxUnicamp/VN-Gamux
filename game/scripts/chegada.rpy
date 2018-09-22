@@ -88,10 +88,16 @@ finger 'Prazer, meu nome é Henrique, mas todos me chamam de Finger. Na última 
 menu:
     'Meu Deus! O que houve?':
         show finger olhos_fechados
-        finger '(contar o que aconteceu)' #lembrar o Finger de contar o que houve
+        finger 'Eu comi muito Cup Noodles, é bem salgado.'
+        show finger
+        finger 'Eu consumi 300%% do valor recomendado de sódio para um dia.'
+        show finger olhos_fechados
+        finger 'Mas eu não passei mal não, estou só brincando.'
+        show finger
+        finger 'De qualquer forma, não faça igual eu... Vai que dá ruim? Melhor tomar cuidado.'
     '...':
         show finger olhos_fechados
-        finger 'Haha, calma, estou exagerando. Não precisa se assustar.'
+        finger 'Haha, calma, é brincadeira. Não precisa se assustar.'
 
 show finger at left
 with move
