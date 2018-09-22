@@ -1,5 +1,6 @@
 label chegada:
-    'Cheguei ao IC, acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer'
+    scene bg bosque_ic
+    'Cheguei ao IC. Acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer...'
     show akari feliz at left
     with None
     show akari feliz at center
@@ -28,8 +29,11 @@ label chegada:
     show peronio at center
     with move
     peronio 'Olá, prazer. Eu sou o Perônio, sou o Coordenador de Projetos do Gamux.'
+    show peronio olhos_fechados
     peronio 'Atualmente temos um projeto chamado Godotware. É um jogo que é uma coleção de minijogos.'
+    show peronio olhos_fechados
     peronio 'Nós trabalhamos nele no nosso horário de desenvolvimento, que atualmente é às segundas-feiras das 17h30 às 20h.'
+    show peronio
     p 'Que legal! Onde?'
     peronio 'No IC 3, que fica aqui do lado. Apareça lá!'
     show peronio at left

@@ -23,29 +23,31 @@ menu:
 chris 'Então, o que pensa em fazer no desenvolvimento do jogo?'
 p 'Não sei...'
 p 'O que posso fazer?'
-chris 'Bem, fazer um jogo não é apenas programar, você pode trabalhar com modelagem 3D, arte digital, produção musical, roteiro e programação, dentre outras coisas'
+chris 'Bem, fazer um jogo não é apenas programar, você pode trabalhar com modelagem 3D, arte digital, produção musical, roteiro, programação, entre outras coisas.'
 chris 'Quer fazer alguma dessas?'
 menu:
     'Modelagem 3D':
-        p 'Eu quero modelagem 3D'
-        Chris 'Muito bom, então o Blender é uma boa ferramenta pra você experimentar'
+        p 'Eu quero modelagem 3D.'
+        Chris 'Muito bom, então o Blender é uma boa ferramenta pra você experimentar!'
     'Arte digital':
-        p 'Quero arte digital'
-        chris 'Bem interessante, você pode trabalhar com Krita ou GIMP, são boas ferramentas'
+        p 'Quero arte digital.'
+        chris 'Bem interessante, você pode trabalhar com Krita ou GIMP, são boas ferramentas.'
         chris 'Há material na wiki do Gamux sobre o Krita para consulta.'
-    'produção musical':
-        p 'Eu gostaria muito de ficar com a produção musical'
-        chris 'Isso é muito legal, há várias coisas que você pode fazer, uma ferramenta legal é o audacity'
-    'roteiro':
-        p 'Eu quero a parte de roteiro'
-        chris 'Boa, você pode trabalhar para fazer isso em qualquer jogo, mas jogos com mais enfoque em roteiro, como os feitos em Renpy e Twine são interessantes pra você'
+    'Produção musical':
+        p 'Eu gostaria muito de ficar com a produção musical.'
+        chris 'Isso é muito legal, há várias coisas que você pode fazer. Uma ferramenta legal é o Audacity.'
+    'Roteiro':
+        p 'Eu quero a parte de roteiro.'
+        chris 'Boa! Você pode trabalhar com roteiro em qualquer jogo, afinal, a história é muito importante.'
+        chris 'Mas, como são apenas 48 horas nessa jam, pode ser interessante tentar uma ferramenta que simplifica a programação e permite focar na história, se é o que você quer.'
+        chris "Ren'Py e Twine são boas opções para isso."
     'Programação':
-        p 'Eu acho que vou codar mesmo'
-        chris 'Da hora, uma boa ferramenta, a que temos usado no Gamux, é o Godot engine'
+        p 'Eu acho que vou codar mesmo.'
+        chris 'Da hora. Uma boa ferramenta, a que temos usado no Gamux, é o Godot Engine.'
         chris 'Vários membros do Gamux têm experiência com ela, então saberão te ajudar!'
         p 'Que legal!'
         chris 'Há tutoriais de Godot na nossa wiki. Dê uma olhada, pode ser um bom ponto de partida!'
-chris 'Indepente do que for fazer, a Wiki do Gamux tem tutoriais sobre algumas ferramentas, se você precisar'
+chris 'Indepente do que for fazer, a Wiki do Gamux tem tutoriais sobre algumas ferramentas, se você precisar.'
 chris 'Boa sorte!'
 chris 'Ah, não se esqueça! A ideia da Livre Game Jam é utilizar apenas ferramentas livres no desenvolvimento.'
 p 'Ah sim, mas o que é software livre?'
@@ -53,7 +55,7 @@ show chris feliz at left
 with move
 show peronio at right
 with None
-peronio 'Olá, ouvi a conversa de vocês, eu posso te dizer o que é software livre'
+peronio 'Olá, ouvi a conversa de vocês. Eu posso te dizer o que é software livre.'
 hide chris
 with None
 show peronio at center
@@ -65,31 +67,29 @@ peronio 'A liberdade de redistribuir cópias de modo que você possa ajudar outr
 peronio 'E'
 peronio 'A liberdade de distribuir cópias de suas versões modificadas a outros. Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.'
 peronio 'Ou seja, com o softaware livre, você não está preso à vontade das grandes desenvolvedoras de software, você pode saber o que está acontecendo com seu softaware e alterá-lo segundo suas necessidades e vontades, sem depender de outros.'
-p 'Que interessante, eu gostei dessa ideia'
-peronio 'Ah sim, é realmente muito incrível'
-peronio 'Mais alguma dúvida'
-p 'bem...'
+p 'Que interessante, eu gostei dessa ideia.'
+peronio 'Ah, sim, é realmente muito incrível.'
+peronio 'Mais alguma dúvida?'
+p 'Bem...'
 menu:
     'FPS procedural':
-        p 'Eu consigo criar um FPS como COD ou BF, mas gerado proceduralmente numa Jam?'
-    'Skirim melhor':
-        p 'Eu consigo criar um RPG como Skyrim, mas melhor, durante a Jam?'
-peronio 'Vai nessa'
+        p 'Eu consigo criar um FPS como Call Of Duty ou Battle Field, mas gerado proceduralmente, numa game jam?'
+    'Skirim só que melhor':
+        p 'Eu consigo criar um RPG como Skyrim, mas melhor, durante a jam?'
+peronio 'Vai nessa!'
 peronio 'Nada te impede de tentar, mas assim, fazer isso numa equipe de quatro a cinco pessoas, em 48 horas, é praticamente impossível.'
 peronio 'Mas se quiser, vou achar incrível, vou querer muito jogar seu jogo depois.'
 hide peronio
 'Algum tempo depois...'
+
 show rapha feliz
-
-
-
 rapha 'Olá, como está indo seu jogo?!'
 rapha 'Ah, acho que ainda não nos conhecemos! Eu sou a Rapha, estudo no IA.'
 p 'É um prazer te conhecer!'
 rapha 'Você já deu uma olhada na LariJam?'
 p 'O que é a LariJam?'
 rapha 'É uma venda de guloseimas especialmente para a jam.'
-rapha 'Tem várias coisas, por exemplo toddyinho, cup noodles, chocolates... Dê uma olhada!'
+rapha 'Tem várias coisas, por exemplo Toddynho, Cup Noodles, chocolates... Dê uma olhada!'
 show rapha feliz at left
 with move
 hide rapha feliz
@@ -100,7 +100,7 @@ with None
 show thiago feliz
 thiago 'Olá, tudo bem? Você quer comprar alguma coisa?'
 menu:
-    'Toddyinho':
+    'Toddynho':
         thiago 'Aqui está! Aproveite o evento!'
     'Cup Noodles':
         thiago 'Aqui está! Mas tome cuidado, o cheiro pode incomodar algumas pessoas!'
