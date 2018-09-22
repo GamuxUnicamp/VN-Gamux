@@ -15,9 +15,7 @@ label chegada:
     show anaclara feliz at center
     with move
     ana 'Oi, tudo bem? É um prazer te conhecer, eu sou a Ana. Sou da Ciência da Computação.'
-    show anaclara olhos_fechados
     ana 'Comecei a participar do Gamux no meio de 2017. Sempre gostei muito de arte, de desenhar...'
-    show anaclara feliz
     ana 'Então eu faço alguns materiais de divulgação do Gamux. Sou a Coordenadora de Comunicação.'
     p 'É um prazer te conhecer, Ana! Que legal!'
     show anaclara feliz at left
@@ -31,10 +29,11 @@ label chegada:
     peronio 'Olá, prazer. Eu sou o Perônio, sou o Coordenador de Projetos do Gamux.'
     show peronio olhos_fechados
     peronio 'Atualmente temos um projeto chamado Godotware. É um jogo que é uma coleção de minijogos.'
-    show peronio olhos_fechados
-    peronio 'Nós trabalhamos nele no nosso horário de desenvolvimento, que atualmente é às segundas-feiras das 17h30 às 20h.'
     show peronio
+    peronio 'Nós trabalhamos nele no nosso horário de desenvolvimento, que atualmente é às segundas-feiras das 17h30 às 20h.'
+    show peronio olhos_fechados
     p 'Que legal! Onde?'
+    show peronio
     peronio 'No IC 3, que fica aqui do lado. Apareça lá!'
     show peronio at left
     with move
@@ -44,7 +43,8 @@ label chegada:
     with None
     show stefano at center
     with move
-    stefano 'Olá, meu nome é Stéfano. Sou o Coordenador Financeiro do Gamux, eu decido quanto vamos gastar em toddyinho na jam.'
+    stefano 'Olá, meu nome é Stéfano. Sou o Coordenador Financeiro do Gamux, eu decido quanto vamos gastar em Toddynho na jam.'
+    show stefano olhos_fechados
     stefano 'Também decido quanto as guloseimas vão custar para maximizar o lucro.'
     show stefano at right
     with move
@@ -55,6 +55,7 @@ label chegada:
     show gabriel at center
     with move
     gabriel 'Oi, eu sou o Gabriel! Entrei para o Gamux esse ano. Participo no desenvolvimento do Godotware.'
+    show gabriel olhos_fechados
     gabriel 'Ah, e participei também do desenvolvimento dessa Visual Novel que você está jogando agora!'
     show gabriel at left
     with move
@@ -65,16 +66,14 @@ label chegada:
     show alec at center
     with move
     alec 'Olá, tudo bem? Meu nome é Alec. Participo do desenvolvimento do Godotware também. Além disso, sou o hokage do Gamux. Quer ver minha capa do Naruto?'
+    show alec olhos_fechados
 
 menu:
     'Claro!':
-        # hide alec
         # show alec hokage
         alec 'Jutsu Clones das Sombras!'
     'Hum.......... Não, valeu.':
-        # hide alec
-        # show alec decepcionado
-        alec 'Nossa.'
+        alec 'Ok!'
 
 show alec at right
 with move
@@ -88,8 +87,10 @@ finger 'Prazer, meu nome é Henrique, mas todos me chamam de Finger. Na última 
 
 menu:
     'Meu Deus! O que houve?':
+        show finger olhos_fechados
         finger '(contar o que aconteceu)' #lembrar o Finger de contar o que houve
     '...':
+        show finger olhos_fechados
         finger 'Haha, calma, estou exagerando. Não precisa se assustar.'
 
 show finger at left
