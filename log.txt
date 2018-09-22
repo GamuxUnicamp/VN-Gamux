@@ -288,4 +288,11 @@ Total time until interface ready: 1.25999999046s
 - Frame drawn at 0.034667 seconds.
 - Frame drawn at 0.050667 seconds.
 - Frame drawn at 0.067667 seconds.
-- 0.067667 seconds to render 5 f
+- 0.067667 seconds to render 5 frames.
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)

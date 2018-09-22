@@ -28,7 +28,7 @@ chris 'Quer fazer alguma dessas?'
 menu:
     'Modelagem 3D':
         p 'Eu quero modelagem 3D.'
-        Chris 'Muito bom, então o Blender é uma boa ferramenta pra você experimentar!'
+        chris 'Muito bom, então o Blender é uma boa ferramenta pra você experimentar!'
     'Arte digital':
         p 'Quero arte digital.'
         chris 'Bem interessante, você pode trabalhar com Krita ou GIMP, são boas ferramentas.'
