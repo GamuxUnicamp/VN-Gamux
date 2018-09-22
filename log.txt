@@ -1,66 +1,39 @@
-<<<<<<< HEAD
-Sat Sep 22 17:14:35 2018
+Sat Sep 22 18:26:18 2018
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3135
  
 
-Bootstrap to the start of init.init took 0.07s
-Early init took 0.01s
-Loader init took 0.02s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata. took 0.03s
-=======
-Sat Sep 22 17:48:25 2018
-Linux-4.15.0-34-generic-x86_64-with-debian-buster-sid
-Ren'Py 7.1.0.882
- 
-
 Bootstrap to the start of init.init took 0.10s
 Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata. took 0.02s
->>>>>>> b77144358d53027a46323e2b2d86641570b6724b
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.30s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.03s
+Running init code took 0.09s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.08s
+Backing up script files to 'C:\\Users\\alber\\AppData\\Roaming/RenPy/backups\\VN-Gamux':
+Dump and make backups. took 0.29s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.000000
 Creating interface object took 0.03s
 Cleaning stores took 0.00s
-<<<<<<< HEAD
 Init translation took 0.03s
-Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.02s
-=======
-Init translation took 0.05s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.09s
-Prepare screens took 0.10s
+Analyze screens took 0.01s
+Save screen analysis took 0.07s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.07s
+Save bytecode. took 0.10s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.03s
->>>>>>> b77144358d53027a46323e2b2d86641570b6724b
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -309,27 +282,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-<<<<<<< HEAD
-Total time until interface ready: 1.05500006676s
+Total time until interface ready: 2.91599988937s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.010000 seconds.
-- Frame drawn at 0.026000 seconds.
-- Frame drawn at 0.042000 seconds.
-- Frame drawn at 0.081000 seconds.
-- 0.081000 seconds to render 5 frames.
-=======
-Total time until interface ready: 1.39668798447s
-- Target is 5 frames in 0.333333333333 seconds.
-- Frame drawn at 0.000000 seconds.
-
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1009) drawable=(1920, 1009)
-- Frame drawn at 0.039102 seconds.
-- Frame drawn at 0.046062 seconds.
-- Frame drawn at 0.055900 seconds.
-- Frame drawn at 0.064180 seconds.
-- 0.064180 seconds to render 5 frames.
->>>>>>> b77144358d53027a46323e2b2d86641570b6724b
+- Frame drawn at 0.018667 seconds.
+- Frame drawn at 0.023667 seconds.
+- Frame drawn at 0.043667 seconds.
+- Frame drawn at 0.090667 seconds.
+- 0.090667 seconds to render 5 frames.

@@ -101,7 +101,7 @@ label explicacao:
     show akari olhos_fechados
     akari 'Gamux é uma entidade de estudo e desenvolvimento de jogos que busca fomentar a cultura de games na universidade e na região.'
     show akari feliz
-    'Eu não sabia nada disso...'
+    '{i}Eu não sabia nada disso...{/i}'
     show akari olhos_fechados
     p 'Que incrível! Eu não imaginava que sua entidade fosse assim.'
     show akari feliz

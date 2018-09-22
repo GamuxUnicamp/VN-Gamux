@@ -83,7 +83,7 @@ label larijam:
     peronio 'Nada te impede de tentar, mas assim, fazer isso numa equipe de quatro a cinco pessoas, em 48 horas, é praticamente impossível.'
     peronio 'Mas se quiser, vou achar incrível, vou querer muito jogar seu jogo depois.'
     hide peronio
-    'Algum tempo depois...'
+    '{i}Algum tempo depois...{/i}'
 
     show rapha feliz
     rapha 'Olá, como está indo seu jogo?!'
