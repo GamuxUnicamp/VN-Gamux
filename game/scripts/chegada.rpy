@@ -70,15 +70,8 @@ label chegada:
     with None
     show alec at center
     with move
-    alec 'Olá, tudo bem? Meu nome é Alec. Participo do desenvolvimento do Godotware também. Além disso, sou o hokage do Gamux. Quer ver minha capa do Naruto?'
+    alec 'Olá, tudo bem? Meu nome é Alec. Participo do desenvolvimento do Godotware também.'
     show alec olhos_fechados
-
-menu:
-    'Claro!':
-        # show alec hokage
-        alec 'Jutsu Clones das Sombras!'
-    'Hum.......... Não, valeu.':
-        alec 'Ok!'
 
 label finger:
     show alec at right
