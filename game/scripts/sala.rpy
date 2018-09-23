@@ -47,10 +47,17 @@ label sala:
     p 'Professor, com licença...'
     'Professor' 'Olá, jovem, no que posso te ajudar?'
     'Eu acho que tem algum erro na correção da minha prova... Olha aqui, essas respostas estão certas, era pra eu ter tirado, pelo menos, 9,0 nessa prova. Houve algum engano...'
+    show prof
     professor 'Eu sei, MWUAHAHAHAHAHAHAHAHAHAH!'
+    show prof aura
     professor 'Era pra você ter tirado dez nessa prova, mas eu te dei zero. Não me leve a mal, não é nada pessoal. Sei que você é uma pessoa muito esforçada, mas eu vou me sentir mal se não deixar uma certa quantidade de alunos de exame.'
+    show prof
     professor 'E nesse semestre pessoas demais estão bem. Você, por exemplo, é excelente: está indo muito bem. Eu precisava deixar algumas pessoas de exame, isso não podia ficar assim.'
+    show prof aura
     professor 'Eu escolhi você porque vocẽ está indo tão bem que um examezinho não vai te fazer mal, espero que você me entenda.'
+    show prof at left
+    with move
+    hide prof
     '{i}Eu saio correndo da sala aos prantos. Não consigo nem mais olhar na cara desse professor maldito...{/i}'
     '{i}O que fazer agora? Eu estou ferrado, esse maldito vai me pôr de exame, vou ter que estudar muito agora...{/i}'
     '{i}Deixa eu pensar...{/i}'
