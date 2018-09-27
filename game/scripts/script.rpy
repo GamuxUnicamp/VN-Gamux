@@ -20,6 +20,10 @@ default equipe = False
 default dormiu = False
 default happyending = True
 
+label splashscreen:
+    scene bg agradecimento
+    pause
+    return
 
 label start:
     scene bg cb_circulo
