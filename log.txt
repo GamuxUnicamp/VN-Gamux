@@ -1,4 +1,4 @@
-Thu Sep 27 18:10:34 2018
+Sat Sep 29 01:33:24 2018
 Linux-4.15.0-34-generic-x86_64-with-debian-buster-sid
 Ren'Py 7.1.0.882
  
@@ -7,32 +7,33 @@ Bootstrap to the start of init.init took 0.10s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.03s
-Loading script took 0.14s
-Loading save slot metadata. took 0.03s
+Loading script took 0.24s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.11s
-Loading analysis data took 0.06s
+Running init code took 0.08s
+Loading analysis data took 0.07s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+Backing up script files to '/home/gabriel/.renpy/backups/VN-Gamux':
 Dump and make backups. took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.05s
+Creating interface object took 0.08s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.01s
-Load screen analysis took 0.14s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.11s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.09s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
+Save bytecode. took 0.07s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.05s
+Interface start took 0.03s
 
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
@@ -287,11 +288,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.44119405746s
+Total time until interface ready: 1.41032886505s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.013870 seconds.
-- Frame drawn at 0.027180 seconds.
-- Frame drawn at 0.038381 seconds.
-- Frame drawn at 0.055137 seconds.
-- 0.055137 seconds to render 5 frames.
+- Frame drawn at 0.014431 seconds.
+- Frame drawn at 0.029041 seconds.
+- Frame drawn at 0.034940 seconds.
+- Frame drawn at 0.050810 seconds.
+- 0.050810 seconds to render 5 frames.

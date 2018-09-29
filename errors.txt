@@ -2,20 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/aventura.rpy", line 131: menu statement expects a non-empty block.
-    menu:
-        ^
+File "game/scripts/script.rpy", line 24: expected statement.
+    renpy.movie_cutscene('Gamux_intro.mp4')
+                                           ^
 
-File "game/scripts/aventura.rpy", line 132: expected statement.
-    'Claro!':
-            ^
-
-File "game/scripts/aventura.rpy", line 134: expected statement.
-    'Hm... Não sei.':
-                    ^
-
-File "game/scripts/aventura.rpy", line 138: expected statement.
-    'Não.':
-          ^
-
-Ren'Py Version: Ren'Py 6.99.14.3135
+Ren'Py Version: Ren'Py 7.1.0.882
+Sat Sep 29 00:40:03 2018

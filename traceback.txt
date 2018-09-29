@@ -1,31 +1,42 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/chegada.rpy", line 93, in script
-    finger 'Eu consumi [percent:300] do valor recomendado de sódio para um dia.'
-KeyError: u'percent'
+IOError: Couldn't find file 'Gamux_intro.mp4'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/chegada.rpy", line 93, in script
-    finger 'Eu consumi [percent:300] do valor recomendado de sódio para um dia.'
-  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\ast.py", line 643, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\exports.py", line 1175, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\character.py", line 1000, in __call__
-    what = what_pattern.replace("[what]", sub(what, translate=translate))
-  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\character.py", line 982, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "C:\Users\alber\Downloads\renpy-6.99.14-sdk\renpy\substitutions.py", line 242, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 646, in get_field
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'percent'
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/ast.py", line 882, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/python.py", line 1913, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/ui.py", line 289, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/display/core.py", line 2662, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/display/core.py", line 3086, in interact_core
+    renpy.audio.audio.interact()
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/audio/audio.py", line 1062, in interact
+    periodic()
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/audio/audio.py", line 993, in periodic_thread_main
+    periodic_pass()
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/audio/audio.py", line 937, in periodic_pass
+    c.periodic()
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/audio/audio.py", line 419, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/audio/audio.py", line 71, in load
+    rv = renpy.loader.load(fn)
+  File "/home/gabriel/Documentos/Jogos/renpy/renpy/loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'Gamux_intro.mp4'.
 
-Windows-8-6.2.9200
-Ren'Py 6.99.14.3135
+Linux-4.15.0-34-generic-x86_64-with-debian-buster-sid
+Ren'Py 7.1.0.882
 vngamux 1.0
+Sat Sep 29 00:41:50 2018

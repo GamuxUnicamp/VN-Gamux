@@ -20,8 +20,9 @@ default equipe = False
 default dormiu = False
 default happyending = True
 
-#label splashscreen:
-    #return
+label splashscreen:
+    $ renpy.movie_cutscene('gamux_intro.ogg')
+    return #nao funciona com mp4
 
 label start:
     scene bg cb_circulo
