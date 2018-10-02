@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/script.rpy", line 24: expected statement.
-    renpy.movie_cutscene('Gamux_intro.mp4')
-                                           ^
+File "game/screens.rpy", line 333: u'jump' is not a keyword argument or valid child for the textbutton statement.
+    textbutton _("Creditos") action jump creditos
+                                        ^
 
 Ren'Py Version: Ren'Py 7.1.0.882
-Sat Sep 29 00:40:03 2018
+Tue Oct  2 12:09:40 2018

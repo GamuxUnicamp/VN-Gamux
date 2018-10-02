@@ -305,7 +305,7 @@ screen navigation():
 
         else:
 
-            textbutton _("Histor") action ShowMenu("history")
+            textbutton _("Historia") action ShowMenu("history")
 
             textbutton _("Save") action ShowMenu("save")
 
@@ -326,11 +326,11 @@ screen navigation():
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            textbutton _("Ajuda") action ShowMenu("help")
 
             ## The quit button is banned on iOS and unnecessary on Android.
             textbutton _("Sair") action Quit(confirm=not main_menu)
-
+        textbutton _("Creditos") action ShowMenu("creditos")
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
@@ -1509,3 +1509,16 @@ style slider_pref_vbox:
 style slider_pref_slider:
     variant "small"
     xsize 900
+
+screen creditos():
+    tag menu
+    frame:
+        background "preto.png"
+        vbox: #This puts the elements in a vertical box, you could use an hbox or a grid or a fixed, etc.
+            text "Roteiro por Ana e Gabriel"
+            text "Programacao por Ana e Gabriel"
+            text "Musica e som por Oom"
+            text "Arte por Rapha e Ana"
+            text "Game intro por Thales"
+            text "Descricao software livre disponivel em https://www.gnu.org/philosophy/free-sw.pt-br.html"
+            textbutton _("Return") action Return()
