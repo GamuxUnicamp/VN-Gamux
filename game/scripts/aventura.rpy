@@ -104,7 +104,7 @@ label software_livre:
     with None
     show peronio at center
     with move
-    peronio 'Segundo a Free Software Foundation e o site do GNU, softaware livre é todo aquele que possua as quatro liberdades fundamentais:'
+    peronio 'Segundo a Free Software Foundation e o site do GNU, software livre é todo aquele que possua as quatro liberdades fundamentais:'
     show peronio olhos_fechados
     peronio '\"A liberdade de executar o programa como você desejar, para qualquer propósito;'
     show peronio

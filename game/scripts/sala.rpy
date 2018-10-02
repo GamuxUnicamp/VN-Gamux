@@ -43,7 +43,7 @@ label sala:
     '{i}O QUÊ?! NÂO PODE SER!{/i}'
     '{i}EU NÃO POSSO TER TIRADO ZERO!!!!!!!!{/i}'
     '{i}Mas pera, isso está errado...{/i}'
-    '{i}Eu fui bem nesse prova, não é possível!{/i}'
+    '{i}Eu fui bem nessa prova, não é possível!{/i}'
     p 'Professor, com licença...'
     'Professor' 'Olá, jovem, no que posso te ajudar?'
     p'Eu acho que tem algum erro na correção da minha prova... Olha aqui, essas respostas estão certas, era pra eu ter tirado, pelo menos, 9,0 nessa prova. Houve algum engano...'
