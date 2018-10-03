@@ -1,4 +1,4 @@
-define ana = Character('Ana', color='#000000')
+define ana = Character('Ana', color='#FFFFFF')
 define gabriel = Character('Gabriel', color='#8B0000')
 define akari = Character('Akari')
 define peronio = Character('Perônio')
