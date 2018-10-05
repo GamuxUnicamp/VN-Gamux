@@ -26,9 +26,9 @@ label splashscreen:
 
 label start:
     scene bg cb_circulo
-    python:
-        name = renpy.input('Digite seu nome:')
-        name = name.strip() or 'Protagonista' #Recebendo nome do jogador
+    #python: Esse bloco nao e obrigatorio, o sifrao resolve
+    $ name = renpy.input('Digite seu nome:')
+    $ name = name.strip() or 'Protagonista' #Recebendo nome do jogador
     '{i}É... Acabei de sair da aula aqui no CB, não está fácil.{/i}' #Primeira cena, jogador sai da aula e encontra com a Akari, que a/o convida para a Livre Jam
     '{i}Acabei de entregar um trabalho, já tenho mais cinco pra fazer, tenho prova semana que vem... Esse semestre está puxado.{/i}'
     '{i}Depois de um tempo viajando, percebo que alguém vem em minha direção.{/i}'
