@@ -62,6 +62,7 @@ label happyending:
         hide akari
 
         scene bg agradecimento with dissolve
+        play music 'créditos.mp3'
         '{i}Nós do Gamux te agradecemos por ter jogado nossa Visual Novel de divulgação da Livre Game Jam!{/i}'
         '{i}Esperamos que tenha conhecido melhor a entidade e se divertido.{/i}'
         '{i}Venha para a Livre Game Jam! Está chegando! *-*{/i}'

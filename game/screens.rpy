@@ -254,7 +254,7 @@ screen quick_menu():
             yalign 1.0
 
             textbutton _("Voltar") action Rollback()
-            textbutton _("History") action ShowMenu('history')
+            textbutton _("História") action ShowMenu('history')
             textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
@@ -301,17 +301,17 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton _("Começar") action Start()
 
         else:
 
-            textbutton _("Historia") action ShowMenu("history")
+            textbutton _("História") action ShowMenu("history")
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("Salvar") action ShowMenu("save")
 
         textbutton _("Carregar") action ShowMenu("load")
 
-        textbutton _("Preferencias") action ShowMenu("preferences")
+        textbutton _("Preferências") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -319,7 +319,7 @@ screen navigation():
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("Menu Principal") action MainMenu()
 
         textbutton _("Sobre") action ShowMenu("about")
 
@@ -330,7 +330,7 @@ screen navigation():
 
             ## The quit button is banned on iOS and unnecessary on Android.
             textbutton _("Sair") action Quit(confirm=not main_menu)
-        textbutton _("Creditos") action ShowMenu("creditos")
+        textbutton _("Créditos") action ShowMenu("creditos")
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
@@ -1516,9 +1516,9 @@ screen creditos():
         background "preto.png"
         vbox: #This puts the elements in a vertical box, you could use an hbox or a grid or a fixed, etc.
             text "Roteiro por Ana e Gabriel"
-            text "Programacao por Ana e Gabriel"
-            text "Musica e som por Oom"
+            text "Programação por Ana e Gabriel"
+            text "Música e som por Oom"
             text "Arte por Rapha e Ana"
             text "Game intro por Thales"
-            text "Descricao software livre disponivel em https://www.gnu.org/philosophy/free-sw.pt-br.html"
-            textbutton _("Return") action Return()
+            text "Descrição de software livre disponivel em https://www.gnu.org/philosophy/free-sw.pt-br.html"
+            textbutton _("Voltar") action Return()

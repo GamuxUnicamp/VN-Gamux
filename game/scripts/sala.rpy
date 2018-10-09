@@ -37,6 +37,7 @@ label lugar:
     with None
 label sala:
     '{i}Eu me despeço da Akari e vou até a sala da matéria que mais está me preocupando. Preciso ver o resultado dessa prova...{/i}'
+    play music 'sala de aula.mp3'
     scene bg sala_prof
     '{i}Eu não devo ter ido mal, eu estudei bastante, acho que meu resultado deve ter sido satisfatório...{/i}'
     '{i}Cheguei à sala. O professor está na mesa e prova está ali virada. Só tem uma... Deve ser a minha. Vai ser agora, eu pego a prova...{/i}'
@@ -47,6 +48,7 @@ label sala:
     p 'Professor, com licença...'
     'Professor' 'Olá, jovem, no que posso te ajudar?'
     p'Eu acho que tem algum erro na correção da minha prova... Olha aqui, essas respostas estão certas, era pra eu ter tirado, pelo menos, 9,0 nessa prova. Houve algum engano...'
+    play music 'professormaligno.mp3'
     show prof
     professor 'Eu sei, MWUAHAHAHAHAHAHAHAHAHAH!'
     show prof aura

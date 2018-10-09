@@ -1,5 +1,6 @@
 label chegada:
     scene bg bosque_ic with dissolve
+    play music 'ICbosque.mp3'
     '{i}Cheguei ao IC. Acho que vai ser divertido, mas estou completamente perdido, não sei muito bem o que fazer...{/i}'
     show akari feliz at left
     with None

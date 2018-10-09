@@ -1,35 +1,35 @@
-Fri Oct  5 20:49:41 2018
-Linux-4.15.0-34-generic-x86_64-with-debian-buster-sid
+Tue Oct  9 20:40:18 2018
+Linux-4.15.0-36-generic-x86_64-with-debian-buster-sid
 Ren'Py 7.1.0.882
  
 
-Bootstrap to the start of init.init took 0.10s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.04s
-Loading script took 0.28s
-Loading save slot metadata. took 0.02s
+Bootstrap to the start of init.init took 0.11s
+Early init took 0.01s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.62s
+Loading save slot metadata. took 0.06s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.10s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to '/home/gabriel/.renpy/backups/VN-Gamux':
-Dump and make backups. took 0.10s
+Dump and make backups. took 0.11s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.02s
+Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.06s
+Creating interface object took 0.19s
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.09s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.09s
 Save bytecode. took 0.07s
 Running _start took 0.00s
 Performance test:
@@ -288,11 +288,11 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.49735093117s
+Total time until interface ready: 2.26289486885s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.013199 seconds.
-- Frame drawn at 0.030656 seconds.
-- Frame drawn at 0.042320 seconds.
-- Frame drawn at 0.055497 seconds.
-- 0.055497 seconds to render 5 frames.
+- Frame drawn at 0.017259 seconds.
+- Frame drawn at 0.035689 seconds.
+- Frame drawn at 0.068723 seconds.
+- Frame drawn at 0.074815 seconds.
+- 0.074815 seconds to render 5 frames.

@@ -26,6 +26,7 @@ label splashscreen:
 
 label start:
     scene bg cb_circulo
+    play music 'começo.mp3'
     #python: Esse bloco nao e obrigatorio, o sifrao resolve
     $ name = renpy.input('Digite seu nome:')
     $ name = name.strip() or 'Protagonista' #Recebendo nome do jogador
