@@ -124,7 +124,7 @@ menu:
         p 'Quer saber? Eu vou. Parece realmente muito bom. Onde é e que horas começa?'
         jump lugar
     'Furar':
-        p 'Ah... Sabe, eu acho que não vai rolar, desculpa [akari]'
+        p 'Ah... Sabe, eu acho que não vai rolar, desculpa [akari].'
         show akari feliz
         akari 'Você tem certeza? Vai ser bem legal...'
         show akari olhos_fechados
