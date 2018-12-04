@@ -13,10 +13,10 @@
   
 ## Members
 
--Ana Clara Zoppi Serpa.
--Christian Massao Konishi.
--Gabriel de Freitas Garcia.
--Oom.
--Raphaela Valente.
--Thales Rogério.
+- Ana Clara Zoppi Serpa.
+- Christian Massao Konishi.
+- Gabriel de Freitas Garcia.
+- Oom.
+- Raphaela Valente.
+- Thales Rogério.
 
